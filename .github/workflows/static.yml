@@ -28,4 +28,4 @@ jobs:
         if_key_exists: fail # replace / ignore / fail; optional (defaults to fail)
         
     - name: deploy backend
-      run: rsync -rva --rsh="ssh" * root@64.227.188.132:/var/www/piyushprajapati.tech && ssh root@64.227.188.132 'cd /var/www/piyushprajapati.tech'
+      run: rsync -rva --rsh="ssh" * ubuntu@65.0.29.124:/var/www/piyushprajapati.tech && ssh ubuntu@65.0.29.124 'cd /var/www/piyushprajapati.tech'
