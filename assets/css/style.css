@@ -457,7 +457,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Poppins", sans-serif;
-  color: #1d1d24;
+  color: #000;
   font-weight: 400;
 }
 
@@ -4839,7 +4839,7 @@ img.react-parallax-bgimage {
     Section Separation 
 ==========================*/
 .rn-section-gap {
-  padding: 49px 0;
+  padding: 26px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10615,7 +10615,7 @@ Page Title Area
 
 .section-title.section-title--2 p {
   font-weight: 300;
-  color: #717173;
+  color: #3e3535;
 }
 
 .section-title.section-title--2.text-white .title {
@@ -10629,7 +10629,7 @@ Page Title Area
 .section-title.service-style--3 p {
   padding: 0 21%;
   font-weight: 300;
-  color: #717173;
+  color: #3e3535;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -12505,11 +12505,15 @@ a.item-portfolio-static {
 
 .single-service.service__style--2 .icon svg {
   stroke-width: 1 !important;
+  color: white;
+
 }
 
 .single-service.service__style--2 .content h3.title {
   margin-bottom: 19px;
   font-weight: 500;
+  color: white;
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -12536,7 +12540,8 @@ a.item-portfolio-static {
 }
 
 .single-service.service__style--2 .content p {
-  color: rgba(29, 29, 36, 0.75);
+  /* color: rgba(29, 29, 36, 0.75); */
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 575px) {
@@ -12571,6 +12576,7 @@ a.item-portfolio-static {
   padding: 60px 45px;
   z-index: 2;
   border-radius: 10px;
+  background: #f10f46!important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -15025,7 +15031,7 @@ ul.nav.tab-style--1 li a.active::before {
 
 .single-tab-content p {
   font-weight: 300;
-  color: #717173;
+  color: #3e3535;
   font-size: 18px;
   line-height: 30px;
 }
@@ -15046,12 +15052,16 @@ ul.nav.tab-style--1 li a.active::before {
   line-height: inherit;
   margin-bottom: 15px;
   font-weight: 300;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 6px;
+  padding-left: 21px;
 }
 
 .single-tab-content ul li a {
   font-weight: 500;
   display: block;
-  color: #717173;
+  color: #3e3535;
 }
 
 .single-tab-content ul li a span {
@@ -15117,7 +15127,7 @@ ul.nav.tab-style--1 li a.active::before {
   padding: 0 0 15px 0;
   margin: 0;
   font-weight: 300;
-  color: #717173;
+  color: #3e3535;
   -webkit-animation: fadeInUp 0.1s;
           animation: fadeInUp 0.1s;
 }
@@ -16632,7 +16642,7 @@ BLog Details Styles
 
 .about-inner .section-title p.description {
   font-weight: 300;
-  color: #717173;
+  color: #3e3535;
   padding: 0;
 }
 
