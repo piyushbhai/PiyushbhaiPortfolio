@@ -12489,7 +12489,7 @@ a.item-portfolio-static {
 .single-service.service__style--2 .icon {
   font-size: 54px;
   font-weight: 400;
-  margin-bottom: 23px;
+  margin-bottom: 7px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -12572,11 +12572,15 @@ a.item-portfolio-static {
   padding-right: 20px;
 }
 
-.single-service.service__style--2 a {
-  padding: 60px 45px;
+.single-service.service__style--2 {
+  padding: 30px 30px;
+  color:white;
   z-index: 2;
   border-radius: 10px;
   background: #f10f46!important;
+}
+.single-service.service__style--2 i {
+  color:white;
 }
 
 @media only screen and (max-width: 767px) {
